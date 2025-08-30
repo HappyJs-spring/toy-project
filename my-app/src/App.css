@@ -25,6 +25,7 @@ h1 {
   height: 400px;
   background-color: #6d4c41;
   border-radius: 8px;
+  padding: 20px;
 }
 
 .title {
@@ -46,4 +47,33 @@ h1 {
 .App input::placeholder {
   color: whitesmoke;
   opacity: 1;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  color: whitesmoke;
+  margin-bottom: 3.5px;
+  position: relative;
+  padding-right: 50px;
+}
+
+button {
+  color: whitesmoke;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+li button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }

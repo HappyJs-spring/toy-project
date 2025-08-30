@@ -8,6 +8,7 @@ export default function Input({ onAddTodos, onDelete }) {
 
     if (text.trim() === '') {
       alert('할 일을 입력해 주세요.');
+      return;
     }
 
     onAddTodos({ text, id: Date.now() });
